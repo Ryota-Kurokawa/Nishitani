@@ -8,6 +8,10 @@ x = 10
 str = "Hello, World!"
 puts str
 
+# scanしたオブジェクトの使用
+> name = ARGV[0] || "world"
+> puts "hello #{name}!"
+
 # 配列
 arr = [1, 2, 3, 4, 5]
 
