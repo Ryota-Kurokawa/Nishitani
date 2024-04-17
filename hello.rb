@@ -1,1 +1,2 @@
-puts "Hello"
+name = "Ryota"
+puts "Hello #{name}!"
