@@ -38,6 +38,12 @@ class Integer
       return roman
     end
 
+    # 
+    # assert_equal test like below
+    # 
+    # assert_equal 'I', 1.to_roman
+    # assert_equal 'II', 2.to_roman
+    # assert_equal 'III', 3.to_roman
 
     [
       [1,'I'],
